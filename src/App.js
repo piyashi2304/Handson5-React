@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import PureCompo from './HOC&PureCompo/PureCompo';
+import HOC from './HOC&PureCompo/HOC';
+import HOCCall from './HOC&PureCompo/HOCCall';
+import { HOCCallblue } from './HOC&PureCompo/HOCCall';
+import '../src/style.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PureCompo />
+      <HOC />
+      <HOCCall value ={HOC}/>
+      <HOCCallblue value={HOC}/>
+      
     </div>
   );
 }

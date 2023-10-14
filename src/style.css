@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(to bottom,rgb(183, 230, 250),pink,white);
+    margin: 0px;
+    height: 100vh;
+}
+h1{
+    text-decoration: underline;
+    color: rgb(226, 86, 43);
+}
+h2{
+    font-size: 18px;
+}
+span{
+    font-size: 25px;
+    color: rgba(25, 239, 21, 0.965);
+    text-decoration: underline;
+}
+h3{
+    font-size:15px ;
+}
+button{
+    background-color: rgba(0, 255, 213, 0.793);
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
